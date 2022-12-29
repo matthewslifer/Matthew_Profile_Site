@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillLinkedin, AiFillGithub, AiOutlineConsoleSql} from "react-icons/ai";
-import { SiJavascript, SiPython, SiTailwindcss, SiJava, SiExpress, SiReact } from 'react-icons/Si';
+import { SiJavascript, SiPython, SiTailwindcss, SiJava, SiExpress, SiReact } from 'react-icons/si';
 import {DiMongodb} from "react-icons/di"
 import Image from "next/image";
 import matthew from '../public/matthew-wave.png';
