@@ -8,6 +8,7 @@ import matthew from '../public/matthew-wave.png';
 import web1 from "../public/web1.png";
 import web2 from "../public/web2.png";
 import web3 from "../public/web3.png";
+import web4 from "../public/web4.png";
 
 export default function Home() {
   return (
@@ -106,6 +107,19 @@ export default function Home() {
               <h3 className=' text-cyan-700'><a href="https://github.com/matthewslifer/E-Commerce-Website">E-Commerce Website</a></h3>
               <p className=' text-sm'>
                 Next.JS, Sanity.IO, JavaScript, CRUD Operations on backend database, CSS
+              </p>
+            </div>
+            <div className='basis-1/3 flex-1'>
+              <Image
+                className="rounded-lg object-cover"
+                width={"100%"}
+                height={"100%"}
+                layout="responsive"
+                src={web4}
+                />
+              <h3 className='text-cyan-700'><a href="https://github.com/matthewslifer/Task-Manager">Task Manager</a></h3>
+              <p className='text-sm'>
+                JavaScript, CSS, HTML, Express, MongoDB, Mongoose, CRUD Operations
               </p>
             </div>
           </div>
